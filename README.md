@@ -1,5 +1,4 @@
 # Computer Security: Cryptography Design Application 
-Assignment
 This project includes the design and implementation of custom stream and block ciphers with encryption/decryption demos, naming, workflow diagrams, and usage justification. It also proposes a hybrid cryptography application combining symmetric and asymmetric methods.
 
 # Block Cipher
@@ -73,6 +72,14 @@ Original Message: THE MANAGER IS HERE
 Encrypted (Base64): ks3ZyuWlRpu7AK6sjYZMHEjjFQ==
 Decrypted Message: THE MANAGER IS HERE
 ```
+
+---
+
+## System Requirements
+
+- C++17 compatible compiler (e.g., g++, clang++)
+- Operating System: Linux, macOS, or Windows
+- No external libraries required
 
 ---
 
