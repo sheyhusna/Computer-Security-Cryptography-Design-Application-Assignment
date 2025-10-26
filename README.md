@@ -1,4 +1,5 @@
-# Computer-Security-Cryptography-Design-Application-Assignment
+# Computer Security: Cryptography Design Application 
+Assignment
 This project includes the design and implementation of custom stream and block ciphers with encryption/decryption demos, naming, workflow diagrams, and usage justification. It also proposes a hybrid cryptography application combining symmetric and asymmetric methods.
 
 # Block Cipher
@@ -44,3 +45,37 @@ Ciphertext (hex): 8f1a2bce21d4e765
 
 Recovered plaintext: HelloDES
 ```
+
+# Stream Cipher
+**Tornado-25** is a fully commented, educational implementation of a **noise-based stream cipher**, written in C++.
+It demonstrates how stream ciphers operate using keystream generation, XOR-based encryption, and Base64 encoding for readable output.
+
+| File Name | Description |
+|------------|-------------|
+| `Tornado-25.cpp` | Main source file containing the complete Tornado-25 stream cipher and demo program |
+
+---
+
+## Compilation & Execution
+
+To compile the program, use the following command (in Google Colab):
+
+```bash
+!g++ Tornado-25.cpp -o Tornado-25
+
+./Tornado-25
+ ```
+
+ ## Example Output
+
+```bash
+Original Message: THE MANAGER IS HERE
+Encrypted (Base64): ks3ZyuWlRpu7AK6sjYZMHEjjFQ==
+Decrypted Message: THE MANAGER IS HERE
+```
+
+---
+
+## License
+This project is open-source and free to use for educational purposes.
+
